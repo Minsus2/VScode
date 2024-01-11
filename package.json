@@ -1,5 +1,5 @@
 {
-  "name": "web-mmd",
+  "name": "VScode",
   "version": "1.0.0",
   "description": "Web MMD",
   "private": true,
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/culdo/web-mmd.git"
+    "url": "git+ssh://git@github.com/Minsus2/VScode.git"
   },
   "author": "culdo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/culdo/web-mmd/issues"
+    "url": "https://github.com/Minsus2/VScode/issues"
   },
-  "homepage": "https://github.com/culdo/web-mmd#readme",
+  "homepage": "https://github.com/Minsus2/VScode#readme",
   "devDependencies": {
     "@babel/core": "^7.19.6",
     "@babel/preset-env": "^7.19.4",
