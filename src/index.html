@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <script src="./ammo.wasm.js"></script>
+		<title>Web MMD</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="main.css">
+		<link rel="icon" type="image/png" href="icon.png">
+	</head>
+
+	<body>
+		<div id="overlay">
+			<h1 id="loading">
+				Loading files...
+			</h1>
+		</div>
+		<div class="scrolling-bar" style="display: none;">
+			<hr/>
+			<div class="hit-point"></div>
+		</div>
+		<audio id="player" controls></audio>
+		<input id="selectFile" type="file" style="display: none;" />
+		<div id="button">
+			<img src="fullscreen.svg">
+		</div>
+	</body>
+</html>
